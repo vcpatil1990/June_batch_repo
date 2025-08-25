@@ -1,4 +1,4 @@
-class Rectangle {
+class Rectangle2{
 
     constructor(width, height) {
         this.width = width;
@@ -13,6 +13,6 @@ class Rectangle {
         return this.width * this.height;
     }
 }
-const rect = new Rectangle(50, 20);
+const rect = new Rectangle2(50, 20);
 //rect.setdimention(30, 20);
 console.log('area', rect.getarea())
